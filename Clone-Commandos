@@ -1,0 +1,83 @@
+{
+  "units": {
+    "Republic": {
+      "Support": [
+        {
+          "name": "Clone Commandos",
+          "title": "",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2527155798074326023/58B10C0ECEEA6D425C5697ABC19D6176C08F3BA2/",
+          "size": "small",
+          "type": "Clone Trooper",
+          "points": 75,
+          "speed": 2,
+          "upgrades": {
+            "Training": 1,
+            "Gear": 1,
+            "Grenades": 1,
+	          "Comms": 1,
+	          "Armament": 1
+                      },
+          "minis": [
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1005935455182355861/149A0196C96C1D78830C56F479A27BF825E9C6AB/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1005935455182206940/096195C231ECC170C0963163315EFADABC01D5D7/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1005935455182228456/B086CF963F81B78DCBE9E0893013169CF6454817/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1005935455182206940/096195C231ECC170C0963163315EFADABC01D5D7/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1005935455182431253/81E98F267170F435E05AA7ED621A04F6476DC3B0/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1005935455182206940/096195C231ECC170C0963163315EFADABC01D5D7/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1005935455182280894/C546CADEC6AD3A41EFFC07CCD86AAE1EFB325BC7/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1005935455182206940/096195C231ECC170C0963163315EFADABC01D5D7/"
+            }
+
+                    ],
+          "commands": []
+        }
+      ]
+    }
+  },
+
+  "upgrades": {
+	"Armament": [
+	   {
+		"name": "DC-17m ICWS Sniper Config",
+		"image": "http://cloud-3.steamusercontent.com/ugc/2527155798074340888/8A50BBA7C006E3C0C8D732F478F2F03C28A16245/",
+		"points": 0,
+		"restrictions": {
+			"include": {
+				"unit": ["Clone Commandos"]
+				}
+			}
+	},
+	{
+		"name": "DC-17m ICWS Anti-Armor Config",
+		"image": "http://cloud-3.steamusercontent.com/ugc/2527155798074335496/296B5FFFF8F09166300610541491B0B249A55CBA/",
+		"points": 0,
+		"restrictions": {
+			"include": {
+				"unit": ["Clone Commandos"]
+				}
+			}
+	}
+],
+	"Gear": [
+	{
+		"name": "Katarn Pattern Armor",
+		"image": "http://cloud-3.steamusercontent.com/ugc/2527155798074347867/82CA6D2B9540E7DBD8529D9AF912C9731FF6D943/",
+		"points": 0,
+		"restrictions": {
+			"include": {
+				"unit": ["Clone Commandos"]
+				}
+			}
+		}
+]
+},
+  "battlefield": {},
+  "commands": {}
+}
